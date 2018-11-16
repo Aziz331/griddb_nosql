@@ -1,0 +1,30 @@
+
+const Discord = require("discord.js");
+const client = new Discord.Client();
+
+
+
+client.on("ready", () => {
+client.user.setPresence({
+  status: 'dnd',
+  game: { 
+     type: 0,
+     name: 'Surprise Mother Fucker :) ',
+     details: `3z`,
+     url: 'http://twitch.tv/Streammingg',
+     state: `p`,
+    application_id: '281376075802476544',
+     assets: {
+        small_image: `366835431037337600`,
+        small_text: ' Take This ! ' ,
+        large_image: `370451271133429760`,
+        large_text: `KQ` }
+
+  }
+    });
+});
+
+
+
+
+client.login("NTEyNzQ3NTc1NzY2NTQ4NTMx.DtAG3Q.vvc4FuYqlYQWF3bLDx7WKJ0HE6s");﻿
